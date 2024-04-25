@@ -5,7 +5,7 @@ const App = () => {
   return (
       <div className="container">
           
-          <Plp data={data} />  {/* No need for double curly braces */}
+        <Plp data={data}/>   
       
       </div>
   )
