@@ -5,7 +5,7 @@ const App = () => {
   return (
       <div className="container">
           
-        <Plp data={data}/>   
+      sadsad
       
       </div>
   )
