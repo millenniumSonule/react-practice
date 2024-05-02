@@ -1,13 +1,17 @@
-import React from 'react'
-import Plp from './plp';
-import data from './data.json'
+import React, { createContext } from 'react'
+import ComponentA from './a'
+
+const DetailContext = createContext();
+
 const App = () => {
+  
+  const name = "Anshuman";
+  const company = "TCS"
+
   return (
-      <div className="container">
-          
-                
-      
-      </div>
+    <div>
+      <ComponentA />
+    </div>
   )
 }
 
