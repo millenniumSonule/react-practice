@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { nameContext, companyContext } from './App';
 
-const c = () => {
+const C = () => {
+    const name = useContext(nameContext);
+    const company = useContext(companyContext);
   return (
-    <div>c</div>
+    <div>
+        <p>Name: {name}</p> {/* Displaying the name */}
+        <p>Company: {company}</p> {/* Displaying the company */}
+    </div>
   )
 }
 
-export default c
+export default C;
