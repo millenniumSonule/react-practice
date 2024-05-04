@@ -7,7 +7,7 @@ const C = () => {
   return (
     <div>
         <p>Name: {name}</p> {/* Displaying the name */}
-        <p>Company: {company}</p> {/* Displaying the company */}
+        <p>Company: {company}</p> {/* Displaying the company  asdasd */}
     </div>
   )
 }
